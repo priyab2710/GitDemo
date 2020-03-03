@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="end2endframework.VerifyHeading">
+        <methods>
+          <include name="VerifyTitle"/>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- end2endframework.VerifyHeading -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="end2endframework.HomePageTest">
+        <methods>
+          <include name="openhomepage"/>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- end2endframework.HomePageTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test3(failed)">
+    <classes>
+      <class name="end2endframework.LoginPageTest">
+        <methods>
+          <include name="VerifyLogin"/>
+        </methods>
+      </class> <!-- end2endframework.LoginPageTest -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="5" name="Test4(failed)">
+    <classes>
+      <class name="end2endframework.AutoPractiseHomeTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="openhomepage"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- end2endframework.AutoPractiseHomeTest -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Suite] -->

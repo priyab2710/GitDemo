@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40621" started-at="2020-02-28T15:52:10 NZDT" finished-at="2020-02-28T15:52:51 NZDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40621" started-at="2020-02-28T15:52:10 NZDT" finished-at="2020-02-28T15:52:51 NZDT">
+      <class name="end2endframework.HomePageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:end2endframework.HomePageTest@351d00c0]" name="initialize" is-config="true" duration-ms="9994" started-at="2020-02-28T15:52:10 NZDT" finished-at="2020-02-28T15:52:20 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="openhomepage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:end2endframework.HomePageTest@351d00c0]" name="openhomepage" duration-ms="20978" started-at="2020-02-28T15:52:20 NZDT" data-provider="getdata" finished-at="2020-02-28T15:52:41 NZDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[priyab2710@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openhomepage -->
+        <test-method status="PASS" signature="openhomepage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:end2endframework.HomePageTest@351d00c0]" name="openhomepage" duration-ms="9448" started-at="2020-02-28T15:52:41 NZDT" data-provider="getdata" finished-at="2020-02-28T15:52:51 NZDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2@testing.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openhomepage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:end2endframework.HomePageTest@351d00c0]" name="teardown" is-config="true" duration-ms="159" started-at="2020-02-28T15:52:51 NZDT" finished-at="2020-02-28T15:52:51 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- end2endframework.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

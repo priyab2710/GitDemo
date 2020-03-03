@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="101689" started-at="2020-03-03T11:20:45 NZDT" finished-at="2020-03-03T11:22:27 NZDT">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="17992" started-at="2020-03-03T11:20:45 NZDT" finished-at="2020-03-03T11:21:03 NZDT">
+      <class name="end2endframework.VerifyHeading">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:end2endframework.VerifyHeading@6e171cd7]" name="initialize" is-config="true" duration-ms="14987" started-at="2020-03-03T11:20:45 NZDT" finished-at="2020-03-03T11:21:00 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="VerifyTitle()[pri:0, instance:end2endframework.VerifyHeading@6e171cd7]" name="VerifyTitle" duration-ms="181" started-at="2020-03-03T11:21:00 NZDT" finished-at="2020-03-03T11:21:01 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:end2endframework.VerifyHeading@6e171cd7]" name="teardown" is-config="true" duration-ms="2687" started-at="2020-03-03T11:21:01 NZDT" finished-at="2020-03-03T11:21:03 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- end2endframework.VerifyHeading -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="36397" started-at="2020-03-03T11:21:03 NZDT" finished-at="2020-03-03T11:21:40 NZDT">
+      <class name="end2endframework.HomePageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:end2endframework.HomePageTest@1fa268de]" name="initialize" is-config="true" duration-ms="7539" started-at="2020-03-03T11:21:03 NZDT" finished-at="2020-03-03T11:21:11 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="openhomepage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:end2endframework.HomePageTest@1fa268de]" name="openhomepage" duration-ms="17348" started-at="2020-03-03T11:21:11 NZDT" data-provider="getdata" finished-at="2020-03-03T11:21:28 NZDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[priyab2710@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openhomepage -->
+        <test-method status="PASS" signature="openhomepage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:end2endframework.HomePageTest@1fa268de]" name="openhomepage" duration-ms="8370" started-at="2020-03-03T11:21:28 NZDT" data-provider="getdata" finished-at="2020-03-03T11:21:37 NZDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2@testing.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openhomepage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:end2endframework.HomePageTest@1fa268de]" name="teardown" is-config="true" duration-ms="3136" started-at="2020-03-03T11:21:37 NZDT" finished-at="2020-03-03T11:21:40 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- end2endframework.HomePageTest -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="28052" started-at="2020-03-03T11:21:40 NZDT" finished-at="2020-03-03T11:22:08 NZDT">
+      <class name="end2endframework.LoginPageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:end2endframework.LoginPageTest@4fb0f2b9]" name="initialize" is-config="true" duration-ms="6388" started-at="2020-03-03T11:21:40 NZDT" finished-at="2020-03-03T11:21:46 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="VerifyLogin()[pri:0, instance:end2endframework.LoginPageTest@4fb0f2b9]" name="VerifyLogin" duration-ms="19159" started-at="2020-03-03T11:21:46 NZDT" finished-at="2020-03-03T11:22:05 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:end2endframework.LoginPageTest@4fb0f2b9]" name="teardown" is-config="true" duration-ms="2502" started-at="2020-03-03T11:22:05 NZDT" finished-at="2020-03-03T11:22:08 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- end2endframework.LoginPageTest -->
+    </test> <!-- Test3 -->
+    <test name="Test4" duration-ms="19106" started-at="2020-03-03T11:22:08 NZDT" finished-at="2020-03-03T11:22:27 NZDT">
+      <class name="end2endframework.AutoPractiseHomeTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:end2endframework.AutoPractiseHomeTest@67d48005]" name="initialize" is-config="true" duration-ms="6862" started-at="2020-03-03T11:22:08 NZDT" finished-at="2020-03-03T11:22:15 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="openAutomationHomePage()[pri:0, instance:end2endframework.AutoPractiseHomeTest@67d48005]" name="openAutomationHomePage" duration-ms="9994" started-at="2020-03-03T11:22:15 NZDT" finished-at="2020-03-03T11:22:25 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAutomationHomePage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:end2endframework.AutoPractiseHomeTest@67d48005]" name="teardown" is-config="true" duration-ms="2250" started-at="2020-03-03T11:22:25 NZDT" finished-at="2020-03-03T11:22:27 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- end2endframework.AutoPractiseHomeTest -->
+    </test> <!-- Test4 -->
+  </suite> <!-- Suite -->
+</testng-results>
